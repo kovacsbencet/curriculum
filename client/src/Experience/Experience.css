@@ -1,0 +1,65 @@
+.experience a
+{
+    background-color: var(--btnColor);
+    color: var(--textColor);
+    min-width: 100px;
+    max-width: fit-content;
+    margin: 1em 0em;
+    padding: 5px 20px;
+    box-shadow: inset 0 0 0 0 var(--btnColor);
+    transition: ease-out 0.5s;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.experience a:hover
+{
+    box-shadow: inset 300px 0 0 0 var(--primaryColor);
+    cursor: pointer;
+}
+
+.experience ul
+{
+    margin: 10px 0px;
+}
+
+.experience h2{
+    font-size: clamp(2rem, -0.875rem + 5.333vw, 3rem);
+    opacity: 0.5;
+}
+
+.experience h4{
+    background-color: var(--primaryColor);
+    color: var(--textColor);
+    width: fit-content;
+    padding: 0.2em 1em;
+    font-weight: 400;
+}
+
+.work, .stack, .skills, .projects
+{
+    padding: 1em ;
+}
+
+.work div{
+    margin: 1em 0;
+}
+
+.stack img
+{
+    max-width: 100%;
+}
+
+@media screen and (min-width: 40em){
+    .work, .stack, .skills, .projects
+    {
+        padding: 2em 2em 0em 2em;
+    }
+    .stack img
+    {
+    width: 70%;
+    height: 70%;
+    }
+    
+}

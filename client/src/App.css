@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* END OF CSS RESET */
+
+/* FONT IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* END OF FONT IMPORTS */
+
+/* ICON IMPORTS */
+
+@import url('https://css.gg/css?=|code-slash|edit-markup|radio-checked|screen');
+
+/* END OF ICON IMPORTS */
+
+/* COLOR PALETTE */
+
+:root{
+  --primaryColor: hsl(228, 7%, 13%);
+  --secondaryColor: #2dbce9;
+  --textColor: #f4f4f4;
+  --btnColor: #ff0a54;
+}
+
+/* END OF COLOR PALETTE */
+
+/* FONT CSS PROPERTIES */
+
+
+
+/* END OF FONT CSS PROPERTIES */
+
+/* WRAPPER CSS PROPERTIES */
+
+.wrapper {
+  color: var(--primaryColor);
+  width: 1140px;
+  max-width: 90%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 40em){
+  .wrapper
+  {
+      padding: 2em;
+  } 
+}
+
+.profile {
+  flex: 1 1 40%;
+}
+
+.experience {
+  flex: 1 1 60%;
+}
+/* END OF WRAPPER CSS PROPERTIES */

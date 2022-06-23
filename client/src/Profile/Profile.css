@@ -1,0 +1,74 @@
+.profile{
+    color: var(--primaryColor);
+}
+
+.about, .personal, .social, .interest
+{
+    position: relative;
+    padding: 1em;
+}
+
+.personal h2, .social h2, .interest h2
+{
+    color: var(--primaryColor);
+    opacity: 0.1;
+    font-size: 3rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: -15px;
+}
+
+.about h2
+{
+    opacity: 0.5;
+    font-size: clamp(2rem, -0.875rem + 5.333vw, 3rem);
+}
+
+.about p
+{
+    margin: 10px 0px;
+}
+.picture
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+}
+.picture h1{
+    font-size: clamp(4rem, -0.875rem + 5.333vw, 5rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: -20px;
+}
+.picture h2{
+    font-size: clamp(2rem, -0.875rem + 5.333vw, 2.5rem);
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.picture p{
+    font-size: clamp(1.5rem, -0.875rem + 5.333vw, 1.5rem);
+    font-weight: 600;
+    font-style: italic;
+}
+.picture img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.interest-text
+{
+    color: var(--btnColor);
+    font-size: clamp(2rem, -0.875rem + 5.333vw, 2rem);
+}
+
+
+@media screen and (min-width: 40em){
+    .wrapper
+    {
+        padding: 2em;
+    } 
+}
+
